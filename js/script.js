@@ -1,5 +1,8 @@
-$(function()){
-  //jquery info goes here!
+$(function(){
+
+$("h1").click(function(){
+  alert("BAM!");
+});
 });
 var add = function (number1, number2){
 	return number1+number2;
